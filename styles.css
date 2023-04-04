@@ -236,16 +236,16 @@ footer a { /* attribution*/
     font-size: 0.97rem;
     line-height: 1.7;
     max-width: 90%;
-    margin: 0 0 3rem;
+    margin: 0 0 4rem;
   }
   .statistics {
     display: flex;
     text-align: left;
     justify-content: space-between;
-    max-width: 100%;
+    max-width: 95%;
   }
   .stats {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .categories {
     font-size: 0.8rem;
