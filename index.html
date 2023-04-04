@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="card">
+      <picture>
+        <source
+          media="(max-width: 914px)"
+          srcset="images/image-header-mobile.jpg"
+        />
+        <source
+          media="(min-width: 915px)"
+          srcset="images/image-header-desktop.jpg"
+        />
+        <img
+          class="card-image"
+          src="images/image-header-mobile.jpg"
+          alt="Staff working together"
+        />
+      </picture>
+      <div class="card-content">
+        <div class="intro">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+        <div class="statistics">
+          <div class="stat-group">
+            <h2 class="stats">10k+</h2>
+            <p class="categories">companies</p>
+          </div>
+          <div class="stat-group">
+            <h2 class="stats">314</h2>
+            <p class="categories">templates</p>
+          </div>
+          <div class="stat-group">
+            <h2 class="stats">12m+</h2>
+            <p class="categories">queries</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io" target="_blank"
+          >Frontend Mentor</a
+        >. Coded&nbsp;by&nbsp;<a
+          href="https://www.frontendmentor.io/profile/mindful108"
+          >Judah&nbsp;Lynn</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
